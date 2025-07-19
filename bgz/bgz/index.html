@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lolos / Tidak Lolos Seleksi Ujian CBT UGM 2025</title>
+<style>
+  /* Base Styling */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ea42fe08-1e52-4067-9360-571ede00437d.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: rgba(25, 25, 25, 0.85);
+    max-width: 760px;
+    width: 90%;
+    border-radius: 0;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  }
+
+  /* Blue header bar */
+  .header {
+    background: linear-gradient(90deg, #B71C1C, #E53935);
+    padding: 16px 24px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .title {
+    font-family: 'Arial Black', Arial, sans-serif;
+  }
+  .header .logo {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0 0 1px black);
+  }
+  /* Black info panel */
+  .info-panel {
+    padding: 20px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .info-left {
+    flex-grow: 1;
+    max-width: 68%;
+  }
+  .info-left .user-name {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-size: 2.2rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .info-left .program {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: #ccc;
+  }
+  .info-left .birth-label {
+    font-weight: 600;
+    font-size: 0.84rem;
+    color: #11aafc;
+  }
+  .info-left .birth-date {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  /* Information block */
+  .information {
+    margin-top: 24px;
+    background: white;
+    color: #333;
+    padding: 16px 20px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    line-height: 1.35;
+  }
+  .information strong {
+    font-weight: 700;
+  }
+  .information a {
+    text-decoration: none;
+    color: #0B72E6;
+    font-weight: 700;
+  }
+  .information a:hover, .information a:focus {
+    text-decoration: underline;
+  }
+
+  /* QR code styling */
+  .qr-block {
+    width: 100px;
+    margin-left: 24px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .qr-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #ccc;
+  }
+  /* Responsive */
+  @media (max-width: 640px) {
+    .info-panel {
+      flex-direction: column;
+    }
+    .info-left {
+      max-width: 100%;
+    }
+    .qr-block {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 140px;
+      align-self: center;
+    }
+  }
+</style>
+</head>
+<body>
+  <main class="container" role="main" aria-label="Pengumuman Hasil Seleksi Ujian CBT UGM">
+    <header class="header">
+      <div class="title" aria-live="polite" aria-atomic="true">ANDA DINYATAKAN TIDAK LULUS SELEKSI</div>
+      <img class="logo" src="https://i.postimg.cc/1571VyPq/universitas-gadjah-mada-logo-41.png" alt="Logo Universitas Gadjah Mada berwarna biru dengan ornamen bunga catur" onerror="this.style.display='none'" />
+    </header>
+    <section class="info-panel">
+      <div class="info-left">
+        <p aria-label="Nomor peserta seleksi" style="color: transparent; height: 1px; width: 1px; overflow: hidden; position: absolute; left: -9999px;">XXXXXX</p>
+        <h1 class="user-name" aria-label="Nama peserta ujian BAGUS DWI LESTANTYO">BAGUS DWI LESTANTYO</h1>
+        <p class="program" aria-label="Program studi S1 Ilmu Komunikasi">S1 TEKNIK INFORMATIKA</p>
+        <p class="birth-label">Tanggal Lahir</p>
+        <p class="birth-date" aria-label="Tanggal lahir 9 Agustus 2004">2004-08-09</p>
+        <aside class="information" aria-label="Informasi pendaftaran">
+          <ul>
+            <li><strong>Prosedur Registrasi Calon Mahasiswa dapat dilihat <a href="#" target="_blank" rel="noopener" aria-describedby="link-prosedur">di sini</a>.</strong></li>
+            <li><strong>Registrasi melalui laman <a href="https://simaster.ugm.ac.id/" target="_blank" rel="noopener noreferrer" id="link-prosedur">https://simaster.ugm.ac.id/</a></strong></li>
+          </ul>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
